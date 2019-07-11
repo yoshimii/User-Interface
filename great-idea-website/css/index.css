@@ -49,11 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: 80%;
+	margin: 0% auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +66,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	width: 100%;
+	display: block;
+	
+}
+
+nav a {
+	width: 13.33%;
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+a:hover {
+	color: black;
+}
+
+nav img {
+	width: 15%;
+}
+
+.banner {
+	width: 100%;
+	height: 45%;
+	align-items: center;
+	display: block;
+}
+
+h1 {
+	font-size: 60px;
+	width: 50%;
+	text-align: center;
+	/* float: left; */
+	padding: 0% 5%;
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	align-items: center;
+}
+
+button {
+	border: 1px solid black;
+	background: white;
+	width: 50%;
+}
+.banner-img {
+	width: 49%;
+	display: inline-block;
+	height: 100%;
+	margin-top: 5%;
+}
+
+.main-content {
+	height: 30%
+}
+
+.top-content {
+	width: 100%;
+	display: block;
+	margin-top: 10%;
+	border-top: 2px solid gray;
+}
+
+ .top-content div{
+	display: inline-block;
+	width: 49%;
+	padding-right: 2%; 
+	/* float: right; */
+}
+
+
+.middle-img {
+	width: 100%;
+	padding: 5% 0;
+}
+
+.bottom-content-1, .bottom-content-2, .bottom-content-3 {
+	width: 33.33%;
+	float: right;
+	padding-bottom: 5%;
+	padding-right: 2%;
+	margin-bottom: 10%;
+	border-bottom: 2px solid gray;
+}
+
+address {
+	width: 100%;
+	padding-top: 10%;
+	float: left;
+}
+
+footer {
+	text-align: center;
+	padding: 9%;
+}
+
+h3 {
+	padding-top: 10%;
+	padding: bottom: 3%;
+}
+
+.container {
+	width: 800px;
+}
